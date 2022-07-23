@@ -1,11 +1,11 @@
-Hi, there. It's me, Sebastian!
+Hi, there. It's me, Andrew!
 
 # Usage
 
 ## npm
 
 ```bash
-npx katallaxie
+npx anleac
 ```
 
 ## GitHub Package Registry
@@ -13,5 +13,5 @@ npx katallaxie
 You use the [GitHub registry](https://github.com/features/packages)?
 
 ```bash
-npx @katallaxie/card
+npx @anleac/card
 ```
