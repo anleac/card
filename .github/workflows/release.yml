@@ -33,9 +33,9 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@katallaxie'
+          scope: '@anleac'
       - run: npm ci
-      - run: echo "`jq '.name="@katallaxie/card"' package.json`" > package.json
+      - run: echo "`jq '.name="@anleac/card"' package.json`" > package.json
       - run: npm run build
       - run: npm publish
         env:

@@ -1,16 +1,16 @@
 {
-  "name": "katallaxie",
-  "version": "1.0.19",
-  "description": "A personal card of Sebastian Doell (@katallaxie)",
+  "name": "anleac",
+  "version": "1.0.4",
+  "description": "A personal card of Andrew Leach (@anleac)",
   "main": "/bin/card.js",
   "bin": {
-    "katallaxie": "./bin/card.js"
+    "anleac": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katallaxie/card.git"
+    "url": "git+https://github.com/anleac/card.git"
   },
-  "homepage": "https://katallaxie.dev",
+  "homepage": "https://andrewlea.ch/",
   "scripts": {
     "prepublish": "npm run build",
     "build": "ts-node build.ts --color=16m",
@@ -28,9 +28,9 @@
     "business card"
   ],
   "author": {
-    "email": "sebastian@katallaxie.dev",
-    "name": "Sebastian Doell (@katallaxie)",
-    "url": "https://katallaxie.dev"
+    "email": "resume.mutation949@passinbox.com",
+    "name": "Andrew Leach (@anleac)",
+    "url": "https://andrewlea.ch/"
   },
   "license": "MIT",
   "files": [
@@ -58,6 +58,6 @@
     "typescript": "^5.1.6"
   },
   "bugs": {
-    "url": "https://github.com/katallaxie/card/issues"
+    "url": "https://github.com/anleac/card/issues"
   }
 }

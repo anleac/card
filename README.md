@@ -1,15 +1,15 @@
 # card
 
-[![release](https://github.com/katallaxie/card/actions/workflows/release.yml/badge.svg)](https://github.com/katallaxie/card/actions/workflows/release.yml)
+[![release](https://github.com/anleac/card/actions/workflows/release.yml/badge.svg)](https://github.com/anleac/card/actions/workflows/release.yml)
 
-Hi, there. It's me, Sebastian!
+Hi, there. It's me, Andrew!
 
 ## Usage
 
 ### npm
 
 ```bash
-npx katallaxie
+npx -y anleac
 ```
 
 ### GitHub Package Registry
@@ -17,7 +17,7 @@ npx katallaxie
 You use the [GitHub registry](https://github.com/features/packages)?
 
 ```bash
-npx @katallaxie/card
+npx @anleac/card
 ```
 
 ## License

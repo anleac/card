@@ -5,32 +5,32 @@ import * as path from 'path'
 
 // Text + chalk definitions
 const data = {
-  name: chalk.bold(chalk.whiteBright('           Sebastian Doell')),
-  handle: chalk.bold(chalk.whiteBright('katallaxie')),
-  work: chalk.white('Solution Architect @ ZEISS GROUP'),
-  github: chalk.gray('https://github.com/') + chalk.green('katallaxie'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('katallaxie'),
-  mastodon: chalk.gray('https://hachyderm.io/') + chalk.cyan('@katallaxie'),
-  web: chalk.cyan('https://katallaxie.dev'),
+  name: chalk.bold(chalk.whiteBright('           Andrew Leach')),
+  handle: chalk.bold(chalk.whiteBright('anleac')),
+  work: chalk.white('Senior Software Engineer at Microsoft'),
+  github: chalk.gray('https://github.com/') + chalk.green('anleac'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('andrewkleas'),
+  web: chalk.cyan('https://andrewlea.ch/'),
+  email: chalk.cyan('resume.mutation949@passinbox.com'),
   npx:
     chalk.red('npx') +
     ' ' +
-    chalk.white('@katallaxie/card  (via GitHub Package Registry)'),
+    chalk.white('@anleac/card  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('    Work:'),
-  labelMastodon: chalk.white.bold('Mastodon:'),
   labelGitHub: chalk.white.bold('  GitHub:'),
   labelLinkedIn: chalk.white.bold('LinkedIn:'),
   labelWeb: chalk.white.bold('     Web:'),
-  labelCard: chalk.white.bold('    Card:')
+  labelCard: chalk.white.bold('    Card:'),
+  labelEmail: chalk.white.bold('    Email:')
 }
 
 // Preformating strings
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const toot = `${data.labelMastodon}  ${data.mastodon}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
+const email =  `${data.labelEmail} ${data.email}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Putting it into a variable that we can easily use for boxen
@@ -41,7 +41,6 @@ ${working}
 
 ${githubing}
 ${linkedining}
-${toot}
 ${webing}
 
 ${carding}
