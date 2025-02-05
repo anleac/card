@@ -1,6 +1,6 @@
 {
   "name": "anleac",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A personal card of Andrew Leach (@anleac)",
   "main": "/bin/card.js",
   "bin": {
