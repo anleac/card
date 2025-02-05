@@ -42,6 +42,7 @@ ${working}
 ${githubing}
 ${linkedining}
 ${webing}
+${email}
 
 ${carding}
 `
